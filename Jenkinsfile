@@ -15,7 +15,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/Sonalkawale9/terraform-ec2-manage.git'
+                git branch: 'main', url: 'https://github.com/Sonalkawale9/terraform-jenkins-pipeline.git'
             }
         }
         stage('Terraform init') {
